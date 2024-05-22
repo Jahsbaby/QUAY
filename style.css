@@ -1,0 +1,585 @@
+*{
+  padding: 0rem;
+  margin: 0rem;
+  font-family: Oakes Grotesk Regular;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ebe9e6;
+}
+.first {
+  position: sticky;
+  top: 0rem;
+  height: 4.5rem;
+  border: 0.125rem solid whitesmoke;
+  z-index: 2;
+  background-color: black;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo img {
+  color: white;
+}
+.second a {
+  position: absolute;
+  color: white;
+  border: 0.0625rem solid white;
+  font-size: 1.125rem;
+  text-decoration: none;
+  background-color: black;
+  right: 3.125rem;
+  top: 1.875rem;
+}
+.second a :hover {
+  font-size: 1.25rem;
+  color: black;
+  background-color: white;
+}
+.fa-bars {
+  color: white;
+  padding-left: 3.125rem;
+  padding-top: 2.1875rem;
+}
+.fourth {
+  position: relative;
+  background-image: url('https://www.quay.com.au/wp-content/uploads/2018/07/Banner-Image-5.jpg');
+  background-size: cover;
+  background-color: #bebab3;
+  height: 43.75rem;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.fifth {
+  position: absolute;
+  background-color: rgba(30, 30, 30, 0.6);
+  width: 100%;
+  height: 100%;
+}
+.sixth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sixth img {
+  color: white;
+}
+.seventh {
+  position: absolute;
+  margin-top: 9.375rem;
+  text-align: left;
+  left: 1.875rem;
+  line-height: 1.7;
+}
+.seventh h1 {
+  font-size: 2.5rem;
+  font-family: Oakes Grotesk Bold;
+}
+.seventh a {
+  text-decoration: none;
+  border: 0.0625rem solid black;
+  background-color: rgb(253, 252, 251);
+  margin-top: 1.25rem;
+  color: black;
+  font-weight: bold;
+  width: 21.875rem;
+  padding: 0.625rem 3.125rem;
+}
+.seventh a :hover {
+  background-color: black;
+  color: white;
+}
+.eighth {
+  position: absolute;
+  background: url('https://www.quay.com.au/wp-content/uploads/2023/02/Quay-Homepage-Menu-1.jpg');
+  background-repeat: no-repeat;
+  top: 48.125rem;
+  height: 38.75rem;
+  right: 0.0625rem;
+  width: 41.875rem;
+  background-size: cover;
+}
+.ninth {
+  position: absolute;
+  background-repeat: no-repeat;
+  background: url('https://www.quay.com.au/wp-content/uploads/2018/07/peter-gilmore-7.jpg');
+  background-size: cover;
+  background-color: #ebe9e6;
+  top: 86.875rem;
+  height: 38.75rem;
+  left: 0.0625rem;
+  width: 41.875rem;
+}
+.ten {
+  position: absolute;
+  margin-top: 56.25rem;
+  text-align: left;
+  right: 1.875rem;
+  line-height: 1.7;
+}
+.ten h1 {
+  font-size: 2.5rem;
+  font-family: Oakes Grotesk Bold;
+}
+.ten a {
+  text-decoration: none;
+  border: 0.0625rem solid black;
+  background-color: rgb(253, 252, 251);
+  margin-top: 1.25rem;
+  color: black;
+  font-weight: bold;
+  width: 21.875rem;
+  padding: 0.625rem 3.125rem;
+}
+.ten a :hover {
+  background-color: black;
+  color: white;
+}
+.well {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 77.375rem;
+  height: 38.75rem;
+  background-color: #ebe9e6;
+  right: 0.0625rem;
+  width: 41.875rem;
+  background: url('https://www.quay.com.au/wp-content/uploads/2022/02/Quay-39.jpg');
+}
+.end {
+  position: relative;
+  background-color: rgb(221, 214, 206);
+}
+.eleventh {
+  position: absolute;
+  margin-top: 85rem;
+  text-align: left;
+  left: 1.875rem;
+  line-height: 1.7;
+}
+.eleventh h1 {
+  font-size: 2.5rem;
+  font-family: Oakes Grotesk Bold;
+}
+.eleventh a {
+  text-decoration: none;
+  border: 0.0625rem solid black;
+  background-color: rgb(253, 252, 251);
+  margin-top: 1.25rem;
+  color: black;
+  font-weight: bold;
+  width: 21.875rem;
+  padding: 0.625rem 3.125rem;
+}
+.eleventh a :hover {
+  background-color: black;
+  color: white;
+}
+.win {
+  position: absolute;
+  top: 164.375rem;
+  display: block;
+}
+.soup {
+  position: absolute;
+  display: block;
+  top: 168.75rem;
+  line-height: 1.5;
+  font-weight: 31.25rem;
+  padding-left: 1.25rem;
+  color: white;
+}
+.soup h2 {
+  border-bottom: 0.0625rem solid whitesmoke;
+}
+.soup a {
+  text-decoration: none;
+  border: 0.0625rem solid white;
+  display: block;
+  text-align: center;
+  margin-top: 1.25rem;
+  color: white;
+  width: 12.5rem;
+  padding: 0.625rem 1.875rem;
+}
+.soup a :hover {
+  color: black;
+  background-color: white;
+}
+.ace {
+  position: absolute;
+  left: 28.125rem;
+  top: 164.34375rem;
+}
+.elsa {
+  position: absolute;
+  display: block;
+  top: 168.75rem;
+  line-height: 1.5;
+  font-weight: 31.25rem;
+  left: 30rem;
+  color: white;
+}
+.elsa a {
+  text-decoration: none;
+  border: 0.0625rem solid white;
+  display: block;
+  margin-top: 1.25rem;
+  color: white;
+  text-align: center;
+  width: 12.5rem;
+  padding: 0.625rem 1.875rem;
+}
+.elsa h2 {
+  border-bottom: 0.0625rem solid whitesmoke;
+}
+.elsa a :hover {
+  color: black;
+  background-color: white;
+}
+.aqua {
+  position: absolute;
+  left: 59.375rem;
+  top: 164.375rem;
+  display: block;
+}
+.kdd {
+  position: absolute;
+  display: block;
+  top: 168.75rem;
+  line-height: 1.5;
+  font-weight: 31.25rem;
+  left: 60.125rem;
+  color: white;
+}
+.kdd h2 {
+  border-bottom: 0.0625rem solid whitesmoke;
+}
+.kdd a {
+  text-decoration: none;
+  border: 0.0625rem solid white;
+  display: block;
+  text-align: center;
+  margin-top: 1.25rem;
+  color: white;
+  width: 12.5rem;
+  padding: 0.625rem 1.875rem;
+}
+.kdd a :hover {
+  color: black;
+  background-color: white;
+}
+.false {
+  position: absolute;
+  top: 183.125rem;
+  display: block;
+}
+.false img {
+  left: 0.0625rem;
+}
+.stew {
+  position: absolute;
+  display: block;
+  top: 186.875rem;
+  line-height: 1.5;
+  font-weight: 500;
+  padding-left: 1.25rem;
+  color: white;
+}
+.stew h2 {
+  border-bottom: 0.0625rem solid whitesmoke;
+}
+.stew a {
+  text-decoration: none;
+  border: 0.0625rem solid white;
+  display: block;
+  text-align: center;
+  margin-top: 1.25rem;
+  color: white;
+  width: 12.25rem;
+  padding: 1rem 2rem;
+}
+.stew a :hover {
+  color: black;
+  background-color: white;
+}
+.dab {
+  position: absolute;
+  left: 28rem;
+  top: 183.125rem;
+}
+.dab1 {
+  position: absolute;
+  display: block;
+  top: 184.5rem;
+  font-weight: 500;
+  left: 33rem;
+  color: white;
+}
+.dab1 a {
+  text-decoration: none;
+  border: 0.0625rem solid white;
+  display: block;
+  margin-top: 1.25rem;
+  color: white;
+  text-align: center;
+  width: 12.5rem;
+  padding: 1rem 2rem;
+}
+.dab1 h2 {
+  border-bottom: 0.0625rem solid whitesmoke;
+}
+.dab1 a :hover {
+  color: black;
+  background-color: white;
+}
+.dab2 {
+  position: absolute;
+  background-color: #d5dddb;
+  width: 25rem;
+  border: 0.625rem solid #d5dddb;
+  height: 18.8rem;
+  text-align: center;
+  top: 183.2rem;
+  left: 59.375rem;
+}
+.dab2 a {
+  text-decoration: none;
+  font-size: 2.9rem;
+  font-weight: 50rem;
+  text-align: center;
+  color: black;
+}
+#last {
+   position: relative;
+   height: 20rem;
+   top: 112.5rem;
+   width: 100%;
+}
+.text {
+   position: absolute;
+   text-align: left;
+   left: 3rem;
+   line-height: 1.7;
+   margin-top: 46.875rem;
+}
+.text h1 {
+  font-size: 2.8rem;
+}
+.text2 {
+  position: absolute;
+  left: 52rem;
+  top: 46.875rem;
+  border: 0;
+  border-bottom: 0.0625rem solid #000;
+  color: #000;
+  text-align: left;
+  width: 12.5rem !important;
+  padding: 0.5rem;
+  height: auto;
+  line-height: 1;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  font-weight: 600;
+}
+.text3 {
+  position: absolute;
+  left: 65rem;
+  top: 46.875rem;
+  border: 0;
+  border-bottom: 0.0625rem solid #000;
+  color: #000;
+  text-align: left;
+  width: 12.5rem !important;
+  padding: 0.5rem;
+  height: auto;
+  line-height: 1;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  font-weight: 600; 
+}
+.text4 {
+  position: absolute;
+  left: 52rem;
+  top: 800px;
+  border: 0;
+  border-bottom: 0.0625rem solid #000;
+  color: #000;
+  text-align: left;
+  width: 25rem !important;
+  padding: 0.5rem;
+  height: auto;
+  line-height: 1;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  font-weight: 600;
+}
+.text5 {
+  position: absolute;
+  left: 52rem;
+  top: 53rem;
+  border: 0;
+  border-bottom: 0.0625rem solid #000;
+  color: #000;
+  text-align: left;
+  width: 12.5rem !important;
+  padding: 0.625rem;
+  height: auto;
+  line-height: 1;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  font-weight: 600;
+}
+.text6 {
+  position: absolute;
+  left: 65rem;
+  top: 53.2rem;
+  border: 0;
+  border-bottom: 0.0625rem solid #000;
+  color: #000;
+  text-align: left;
+  width: 12.5rem !important;
+  padding: 0.5rem;
+  height: auto;
+  line-height: 1;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  font-weight: 600; 
+}
+.text7 {
+  position: absolute;
+  top: 60rem;
+  left: 52rem;
+}
+.text7 a {
+  border: 1px solid #000;
+  padding: 1rem 1.25rem;
+  width: 10rem;
+  text-decoration: none;
+  background-color: #ebe9e6;
+  color: black;
+}
+.text7 a :hover {
+  background-color: white;
+  color: white;
+}
+.footer {
+  position: relative;
+  background-color: #D5DDDB;
+  top: 161.25rem;
+  height: 37.5rem;
+  width: 70%;
+  left: 0;
+}
+.footer2 {
+  position: absolute;
+  top: 4rem;
+  left: 4.4rem;
+}
+.footer3 {
+  position: absolute;
+  display: block;
+  top: 10rem;
+  left: 4.4rem;
+  text-align: left;
+  line-height: 1.5;
+}
+.footer3 a {
+  text-decoration: none;
+  color: #000;
+}
+.footer4 {
+  position: absolute;
+  left: 4.4rem;
+  top: 27rem;
+}
+.fa-facebook {
+  position: absolute;
+  top: 4.7rem;
+  left: 0.625rem;
+  color: #000;
+}
+.fa-instagram {
+  position: absolute;
+  top: 4.8rem;
+  left: 3rem;
+  color: black;
+}
+.fa-youtube {
+  position: absolute;
+  top: 4.7rem;
+  left: 5.8rem; 
+  color: #000;
+}
+.footer5 {
+  position: absolute;
+  top: 10rem;
+  display: block;
+  left: 16rem;
+  line-height: 1.5;
+}
+.footer6 {
+  position: absolute;
+  left: 16rem;
+  line-height: 1.5;
+  top: 20rem;
+}
+.footer7 {
+  position: absolute;
+  left: 33.9rem;
+  top: 10rem;
+  line-height: 1.7;
+  display: block;
+}
+.footer7 a {
+  text-decoration: none;
+  border: 0.0625rem solid black;
+  padding: 1rem 2rem;
+  color: #000;
+  width: 12.5rem;
+  margin-top: 1.25rem;
+}
+.footer7 img {
+  float: left;
+}
+.footer8 {
+  position: absolute;
+  background-color: #dce4e7;
+  width: 30%;
+  border: 0.0625rem solid #d5dddb;
+  height: 37.5rem;
+  line-height: 1.7;
+  top: 229.5rem;
+  left: 58.2rem;
+}
+.footer8 h1 {
+  margin-top: 40px;
+  font-weight: 800px;
+  padding-left: 40px;
+  font-size: 45px;
+}
+.footer8 a {
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 40px;
+  color: black;
+}
+.footer9 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  color: white;
+  padding-top: 40px;
+  height: 80px;
+  top: 2580px;
+  background-color: rgba(30, 30, 30, 0.9);
+}
